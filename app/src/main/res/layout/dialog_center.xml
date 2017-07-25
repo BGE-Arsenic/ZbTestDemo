@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="96dp"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_white_btn_foucus_4r"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tv_change_img"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/change_img"
+        android:textSize="@dimen/text_size_normal"
+        android:textColor="@color/black"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_change_no"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_change_img"
+        android:layout_height="48dp"
+        android:text="@string/no"
+        android:textSize="@dimen/text_size_normal"
+        android:textColor="@color/red"
+        android:gravity="center" />
+
+</RelativeLayout>
